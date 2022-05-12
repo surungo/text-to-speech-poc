@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "git clean -f""
-git clean -f
+echo "git fetch -v --progress \"origin\""
+git fetch -v --progress "origin"
+echo "git pull"
+git pull
